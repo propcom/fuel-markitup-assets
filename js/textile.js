@@ -12,6 +12,7 @@ myTextileSettings = {
         {name:'Link', openWith:'"', closeWith:'":[![Link:!:http://]!]', placeHolder:'Your text to link here...' },
         {name:'Italic', key:'I', closeWith:'_', openWith:'_'},
         {name:'Bold', key:'B', closeWith:'*', openWith:'*'},
+        {name:'Strikethrough', key:'S', closeWith:'-', openWith:'-'},
         /*{name:'Heading 1', key:'1', openWith:'h1(!(([![Class]!]))!). ', placeHolder:'Your title here...' },
         {name:'Heading 2', key:'2', openWith:'h2(!(([![Class]!]))!). ', placeHolder:'Your title here...' },
         {name:'Heading 3', key:'3', openWith:'h3(!(([![Class]!]))!). ', placeHolder:'Your title here...' },
@@ -19,8 +20,7 @@ myTextileSettings = {
         {name:'Heading 5', key:'5', openWith:'h5(!(([![Class]!]))!). ', placeHolder:'Your title here...' },
         {name:'Heading 6', key:'6', openWith:'h6(!(([![Class]!]))!). ', placeHolder:'Your title here...' },
         {separator:'---------------' },*/
-        /*{name:'Stroke through', key:'S', closeWith:'-', openWith:'-'},
-        {separator:'---------------' },
+        /*{separator:'---------------' },
         {name:'Bulleted list', openWith:'(!(* |!|*)!)'},
         {name:'Numeric list', openWith:'(!(# |!|#)!)'},
         {separator:'---------------' },*/
