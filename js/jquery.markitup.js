@@ -163,9 +163,8 @@
 							return false;
 						}).click(function() {
 							return false;
-						}).bind("focusin", function(){
-                            $$.focus();
-						}).mouseup(function() {
+						})
+						.mouseup(function() {
 							if (button.call) {
 								eval(button.call)();
 							}
@@ -405,12 +404,12 @@
 					textarea.setSelectionRange(start, start + len);
 				}
 				textarea.scrollTop = scrollPosition;
-				textarea.focus();
+				setTimeout(function(){ textarea.focus(); }, 1);
 			}
 
 			// get the selection
 			function get() {
-				textarea.focus();
+				setTimeout(function(){ textarea.focus(); }, 1);
 
 				scrollPosition = textarea.scrollTop;
 				if (document.selection) {
