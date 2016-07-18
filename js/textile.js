@@ -4,6 +4,9 @@
 // Copyright (C) 2008 Jay Salvat
 // http://markitup.jaysalvat.com/
 // ----------------------------------------------------------------------------
+
+$table_open = "|_.  heading 1 |_.  heading 2 |_. heading 3|\n ";
+$table_close = "| row 1 | row 1| row 1 | \n | row 2 | row 2 | row 2 |";
 myTextileSettings = {
     nameSpace:           "textile", // Useful to prevent multi-instances CSS conflict
     previewParserPath:   "~/sets/textile/preview.php",
@@ -24,5 +27,6 @@ myTextileSettings = {
         {name:'Bulleted list', openWith:'(!(* |!|*)!)'},
         {name:'Numeric list', openWith:'(!(# |!|#)!)'},
         {separator:'---------------' },*/
+        {table:'table',openWith:$table_open,closeWith:$table_close},
     ]
 }
